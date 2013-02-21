@@ -12,3 +12,4 @@ set expandtab
 "set modeline
 set ls=2
 set autochdir
+set incsearch
