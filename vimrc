@@ -10,8 +10,8 @@ set number
 "set autoindent
 "set cindent
 filetype plugin indent on
-set softtabstop=3
-set shiftwidth=3
+set softtabstop=4
+set shiftwidth=4
 syntax on
 set expandtab
 "set modeline
@@ -19,4 +19,7 @@ set ls=2
 set autochdir
 set incsearch
 
+"key mappings
 nmap \e :NERDTreeToggle<CR>
+nmap <F8> :TagbarToggle<CR>
+nmap ; :CtrlPBuffer<CR>
